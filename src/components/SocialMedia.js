@@ -19,7 +19,7 @@ function SocialMedia() {
           <AiFillGithub className="social-icon" />
         </a>
       </li>
-      <li className="social-icons">
+      <li className="social-icons  ">
         <a
           href="https://www.linkedin.com/in/faiq-farooq-750a64215/"
           target="_blank"

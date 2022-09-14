@@ -4,17 +4,21 @@ import myImg from "../../Assets/faiq.jpg";
 import SocialMedia from "../SocialMedia";
 import TypeWriter from "./TypeWriter";
 import "../Home/Home.css";
+import Footer from "../Footer";
+import Projects from "../Projects/Projects";
+import About from "../About/About";
 
 function Home() {
   return (
+    <div>
     <section>
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
-            <Col md={6} className="home-header">
+            <Col md={6} sm={12} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
+                <span className="wave " role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
@@ -37,13 +41,23 @@ function Home() {
                 <TypeWriter  />
               </div>
             </Col>
+            <Col md={2}>
+            </Col>
 
-            <Col md={5}>
+            <Col md={4} sm={12}>
               <img src={myImg} className="profile-picture" alt="avatar" />
             </Col>
           </Row>
         </Container>
       </Container>
+
+
+
+
+
+
+      <Projects/>
+      <About/>
       <Container fluid className="home-about-section" id="about">
         <Container>
           <Row>
@@ -62,6 +76,8 @@ function Home() {
         </Container>
       </Container>
     </section>
+    <Footer/>
+    </div>
   );
 }
 

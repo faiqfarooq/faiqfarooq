@@ -6,13 +6,16 @@ import developer from "../../Assets/developer.png";
 import { SKILLS, TOOLS } from "../../Constants";
 import "../Home/Home.css";
 
+
 function About() {
   return (
+    <div>
+       
     <Container fluid className="about-section">
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
-            md={7}
+            md={7} 
             style={{
               justifyContent: "center",
               paddingTop: "30px",
@@ -24,12 +27,12 @@ function About() {
             </h1>
             <Aboutcard />
           </Col>
-          <Col md={5} style={{ paddingBottom: "50px" }} className="about-img">
+          <Col md={5} sm={12}  className="about-img">
             <img src={developer} alt="about" className="About-image-style" />
           </Col>
         </Row>
         <Row className="skill-tools-wrapper">
-          <Col className="skill-wrapper">
+          <Col md={5} sm={12} className="skill-wrapper">
             <h1 className="project-heading">
               Professional <strong className="purple">Skillset </strong>
             </h1>
@@ -41,7 +44,8 @@ function About() {
               />
             ))}
           </Col>
-          <Col className="skill-wrapper">
+          <Col md={2}></Col>
+          <Col md={5} sm={12} className="skill-wrapper">
             <h1 className="project-heading">
               <strong className="purple">Tools</strong> I use
             </h1>
@@ -54,6 +58,8 @@ function About() {
         </Row>
       </Container>
     </Container>
+  
+    </div>
   );
 }
 

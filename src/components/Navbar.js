@@ -8,9 +8,11 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineUserAdd,
 } from "react-icons/ai";
 
-import { MdDeveloperMode } from "react-icons/md";
+
+import { MdDeveloperMode,MdLogin,MdLogout } from "react-icons/md";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -57,7 +59,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/about"
@@ -75,7 +77,7 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}    />{" "}
                 Projects
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
               <Nav.Link
@@ -94,6 +96,26 @@ function NavBar() {
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/signin"
+                onClick={() => updateExpanded(false)} style={{fontFamily:"'Exo', sans-serif"}}  >
+                <MdLogin style={{ marginBottom: "2px" }} /> Signin
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/signup"
+                onClick={() => updateExpanded(false)} style={{fontFamily:"'Exo', sans-serif"}}  >
+                <MdLogout style={{ marginBottom: "2px" }} /> Register
+              </Nav.Link>
+            </Nav.Item>
+
+        
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -7,6 +7,7 @@ import pdf from "../../Assets/FAIQ+FAROOQ+Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import Footer from "../Footer";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
@@ -34,6 +35,7 @@ function ResumeNew() {
         </Row>
       </Container>
     </div>
+    <Footer/>
     </div>
   );
 }

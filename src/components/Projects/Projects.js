@@ -3,8 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import { PROJECTS } from "../../Constants";
 
+
 function Projects() {
   return (
+    <div>
+      
+    
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">
@@ -29,6 +33,8 @@ function Projects() {
         </Row>
       </Container>
     </Container>
+   
+    </div>
   );
 }
 
