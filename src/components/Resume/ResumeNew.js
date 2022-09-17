@@ -42,7 +42,7 @@ function ResumeNew() {
       
       </Container>
     </div>
-    <Footer/>
+
     </div>
   );
 }

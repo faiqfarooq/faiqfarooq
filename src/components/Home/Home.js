@@ -51,14 +51,24 @@ function Home() {
         </Container>
       </Container>
       
-
-      <a href="https://griap.link/resources/hit/1543/HvEMyfy39v"><img src="https://griap.link/resources/view/1543/HvEMyfy39v" alt="Be known by your own web domain (en)"/></a>
+<div className="row">
+  <div className="col">
+     <a href="https://griap.link/resources/hit/1543/HvEMyfy39v"><img src="https://griap.link/resources/view/1543/HvEMyfy39v" alt="Be known by your own web domain (en)"/></a>
+  </div>
+</div>
+     
 
 
 
 
       <Projects/>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/ZhZlo8YT-gU" frameborder="0" allowfullscreen></iframe><br/><br/><a href="https://griap.link/resources/hit/1611/HvEMyfy39v"><img src="https://griap.link/resources/view/1611/HvEMyfy39v" alt="Conversion funnels for freelancers"/></a>
+      <div className="row">
+  <div className="col">
+  <iframe width="500rem" height="300rem" src="https://www.youtube.com/embed/ZhZlo8YT-gU" frameborder="0" allowfullscreen></iframe><br/><br/><a href="https://griap.link/resources/hit/1611/HvEMyfy39v"><img src="https://griap.link/resources/view/1611/HvEMyfy39v" alt="Conversion funnels for freelancers"/></a>
+  </div>
+</div>
+     
+     
       <About/>
       <Container fluid className="home-about-section" id="about">
         <Container>
@@ -78,8 +88,10 @@ function Home() {
         </Container>
       </Container>
    
+      <div className="row">
+        <div className="col"><a href="https://griap.link/resources/hit/1488/HvEMyfy39v"><img src="https://griap.link/resources/view/1488/HvEMyfy39v" alt="Live Web Chats [en]"/></a></div>
+      </div>
       
-      <a href="https://griap.link/resources/hit/1488/HvEMyfy39v"><img src="https://griap.link/resources/view/1488/HvEMyfy39v" alt="Live Web Chats [en]"/></a>
     <Footer/>
     </section>
     </div>

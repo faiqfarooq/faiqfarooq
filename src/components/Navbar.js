@@ -31,7 +31,10 @@ function NavBar() {
   window.addEventListener("scroll", scrollHandler);
 
   return (
-    <Navbar
+    
+      <div className="row">
+        <div className="col" >
+        <Navbar
       expanded={expand}
       fixed="top"
       expand="md"
@@ -120,6 +123,9 @@ function NavBar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+        </div>
+      </div>
+      
   );
 }
 
