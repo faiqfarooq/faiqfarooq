@@ -14,6 +14,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import ScrollToTop from "./components/ScrollToTop";
 import Signup from "./components/Signup/Signup";
 import Signin from "./components/Signin/Signin";
+import Resetpass from "./components/Signin/Resetpass";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -41,6 +42,7 @@ function App() {
             <Route path="/resume" component={Resume} />
             <Route path="/signup" component ={Signup}/>
             <Route path="/signin" component ={Signin}/>
+            <Route path="/resetpassword" component ={Resetpass}/>
           </Switch>
         
         </div>

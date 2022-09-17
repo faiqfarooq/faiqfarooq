@@ -50,27 +50,15 @@ function Home() {
           </Row>
         </Container>
       </Container>
-       {/* Put this code anywhere in the body of your page where you want the badge to show up. */}
-       <div itemScope itemType="http://schema.org/Person" className="fiverr-seller-widget" style={{display: 'inline-block'}}>
-        <a itemProp="url" href="https://www.fiverr.com/faiqfarooq" rel="nofollow" target="_blank" style={{display: 'inline-block'}}>
-          <div className="fiverr-seller-content" id="fiverr-seller-widget-content-0c3ad6d3-9690-4f00-b5e3-3ddb6027a3e4" itemProp="contentURL" style={{display: 'none'}} />
-          <div id="fiverr-widget-seller-data" style={{display: 'none'}}>
-            <div itemProp="name">faiqfarooq</div>
-            <div itemScope itemType="http://schema.org/Organization"><span itemProp="name">Fiverr</span></div>
-            <div itemProp="jobtitle">Seller</div>
-            <div itemProp="description">Hello my name is Faiq! I will complete 
-              my Bachelor of Science in Computer Engineering. Besides having my degree, I also have 1-years’ experience of extensive web development. I will develop any kind of website from scratch according to your requirement. Also, I have experience in creating ecommerce websites. I have experience in php, html, java script, ajex, bootstrap, css. My ultimately goal is to provide you with 100% customer satisfaction guaranteed.
-            </div>
-          </div>
-        </a>
-      </div>
+      
 
-
+      <a href="https://griap.link/resources/hit/1543/HvEMyfy39v"><img src="https://griap.link/resources/view/1543/HvEMyfy39v" alt="Be known by your own web domain (en)"/></a>
 
 
 
 
       <Projects/>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ZhZlo8YT-gU" frameborder="0" allowfullscreen></iframe><br/><br/><a href="https://griap.link/resources/hit/1611/HvEMyfy39v"><img src="https://griap.link/resources/view/1611/HvEMyfy39v" alt="Conversion funnels for freelancers"/></a>
       <About/>
       <Container fluid className="home-about-section" id="about">
         <Container>
@@ -89,8 +77,11 @@ function Home() {
           </Row>
         </Container>
       </Container>
-    </section>
+   
+      
+      <a href="https://griap.link/resources/hit/1488/HvEMyfy39v"><img src="https://griap.link/resources/view/1488/HvEMyfy39v" alt="Live Web Chats [en]"/></a>
     <Footer/>
+    </section>
     </div>
   );
 }

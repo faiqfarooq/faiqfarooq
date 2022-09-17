@@ -26,13 +26,20 @@ function ResumeNew() {
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
-
+        <a href="https://griap.link/resources/hit/1470/HvEMyfy39v"><img src="https://griap.link/resources/view/1470/HvEMyfy39v" alt="Get leads. Get sales. Get growing."/></a>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank" className="download-button">
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
         </Row>
+        <a href="https://griap.link/resources/hit/1472/HvEMyfy39v"><img src="https://griap.link/resources/view/1472/HvEMyfy39v" alt="Get leads. Get sales. Get growing. [2]"/></a>
+        <a href="https://griap.link/resources/hit/1524/HvEMyfy39v"><img src="https://griap.link/resources/view/1524/HvEMyfy39v" alt="Convert website traffic with signup forms (en)"/></a>
+        <a href="https://griap.link/resources/hit/1121/HvEMyfy39v"><img src="https://griap.link/resources/view/1121/HvEMyfy39v" alt="Responsive Landing Page Templates"/></a>
+        <a href="https://griap.link/resources/hit/565/HvEMyfy39v"><img src="https://griap.link/resources/view/565/HvEMyfy39v" alt="Pricing: Save 18% with an annual plan"/></a>
+        
+   
+      
       </Container>
     </div>
     <Footer/>

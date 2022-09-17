@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "../Signin/Signin.css";
 const Signin = () => {
     return ( 
@@ -7,7 +8,7 @@ const Signin = () => {
 
          
       <div className="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
-        <div className="card card0 border-0">
+        <div className=" py-5 border-0">
           <div className="row d-flex">
             <div className="col-lg-6">
               <div className="card1 pb-5">
@@ -34,18 +35,20 @@ const Signin = () => {
                     <input id="chk1" type="checkbox" name="chk" className="custom-control-input" /> 
                     <label htmlFor="chk1" className="custom-control-label text-sm">Remember me</label>
                   </div>
-                  <a href="#" className="ml-auto mb-0 text-sm">Forgot Password?</a>
+                  <Link to="/resetpassword" className="ml-auto mb-0 text-sm">Forgot Password?</Link>
                 </div>
                 <div className="row mb-3 px-3">
                   <button type="submit" className="btn btn-blue text-center">Login</button>
                 </div>
                 <div className="row mb-4 px-3">
                   <small className="font-weight-bold">Don't have an account? <a className="text-danger ">Register</a></small>
+                 
                 </div>
+                
               </div>
             </div>
           </div>
-         
+          
         </div>
       </div>
         </div>
